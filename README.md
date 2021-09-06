@@ -29,9 +29,6 @@ const aboutMe = {
    challenge: "I'm learning Flutter.",
 };
 ```
-</br></br>
-<h2>💻 Some stats 💻</h2>
 
-[![iviveros-code GitHub stats](https://github-readme-stats.vercel.app/api?username=iviveros-code)](https://github.com/iviveros-code/github-readme-stats)
 
 
