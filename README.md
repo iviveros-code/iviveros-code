@@ -20,10 +20,17 @@ Here are some ideas to get you started:
 const AboutMe = ()=> {
 const [loveMobileTechs, setLoveMobileTechs] = useState(true)
 
+
 return(
+{
+workHard && (
 <View style={styles.container}>
 <Text>Hi! </Text>
 </View>
+)
+
+
+}
 )};
 ```
 
