@@ -20,13 +20,14 @@ Here are some ideas to get you started:
 const AboutMe = ()=> {
 const [loveMobileTechs, setLoveMobileTechs] = useState(true)
 const [agileMethodologies, setAgileMethodologies] = useState(true)
-
+const [loveWhatIdo, setLoveWhatIdo] = useState(true)
 
 return(
 {
 workHard && (
 <View style={styles.container}>
 <Text stlye={styles.title}>I'm a React Native dev, and currently learning about Flutter 🧑🏼‍💻 </Text>
+<Text>`{ I've knowleadge in Finance, I was working in this area many years \n and we needed to probe something new and I'm here!! 💪 }`</Text>
 </View>
 )}
 {
