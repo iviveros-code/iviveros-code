@@ -16,10 +16,12 @@ Here are some ideas to get you started:
 -->
 
 ```javascript
-const aboutMe = ()=> {
-return(
-<View>
 
+const AboutMe = ()=> {
+const [loveMobileTechs, setLoveMobileTechs] = useState(true)
+
+return(
+<View style={styles.container}>
 <Text>Hi! </Text>
 </View>
 )};
