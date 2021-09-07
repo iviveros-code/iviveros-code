@@ -26,7 +26,7 @@ return(
 {
 workHard && (
 <View style={styles.container}>
-<Text stlye={styles.title}>Hey there!🧑🏼‍💻 </Text>
+<Text stlye={styles.title}>I'm a React Native dev, and currently learn about Flutter 🏼‍💻 </Text>
 </View>
 )}
 )};
