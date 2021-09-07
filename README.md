@@ -27,7 +27,8 @@ return(
 workHard && (
 <View style={styles.container}>
 <Text stlye={styles.title}>I'm a React Native dev, and currently learning about Flutter 🧑🏼‍💻 </Text>
-<Text>`{ I've knowleadge in Finance, I was working in this area many years \n and we needed to probe something new and I'm here!! 💪 }`</Text>
+<Text> I've knowleadge in Finance, I was working in this area many years </Text>
+<Text> and we needed to probe something new and I'm here!! 💪 </Text>
 </View>
 )}
 {
