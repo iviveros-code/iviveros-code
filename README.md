@@ -19,18 +19,16 @@ Here are some ideas to get you started:
 
 const AboutMe = ()=> {
 const [loveMobileTechs, setLoveMobileTechs] = useState(true)
+const [agileMethodologies, setAgileMethodologies] = useState(true)
 
 
 return(
 {
 workHard && (
 <View style={styles.container}>
-<Text>Hi! </Text>
+<Text stlye={styles.title}>Hey there!🧑🏼‍💻 </Text>
 </View>
-)
-
-
-}
+)}
 )};
 ```
 
