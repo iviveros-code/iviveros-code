@@ -26,9 +26,12 @@ return(
 {
 workHard && (
 <View style={styles.container}>
-<Text stlye={styles.title}>I'm a React Native dev, and currently learn about Flutter 🏼‍💻 </Text>
+<Text stlye={styles.title}>I'm a React Native dev, and currently learning about Flutter 🏼‍💻 </Text>
 </View>
 )}
+{
+doYouWantToKnowMore? <LinkedIn /> : undefined
+}
 )};
 ```
 
