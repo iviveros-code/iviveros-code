@@ -17,22 +17,7 @@ Here are some ideas to get you started:
 
 ```javascript
 
-const AboutMe = ()=> {
-const [loveMobileTechs, setLoveMobileTechs] = useState(true)
-const [agileMethodologies, setAgileMethodologies] = useState(true)
-const [loveWhatIdo, setLoveWhatIdo] = useState(true)
 
-return(
-{
-workHard && (
-<View style={styles.container}>
-<Text stlye={styles.title}>I'm a React Native dev, and currently learning about Blockchain 🧑🏼‍💻 </Text>
-</View>
-)}
-{
-doYouWantToKnowMore? <LinkedIn /> : null
-}
-)};
 ```
 
 
